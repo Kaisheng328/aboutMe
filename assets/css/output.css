@@ -1043,7 +1043,7 @@ h6 {
   font-size: 24px;
   margin: 0;
   font-weight: 700;
-  color: var(--heading-color);
+  color: black;
 }
 
 .header .social-links {
