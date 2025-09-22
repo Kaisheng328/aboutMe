@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>PortFolio</title>
+  <title>Kai Sheng's PortFolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -39,9 +39,11 @@
 </head>
 
 <body class="index-page">
+  <button class="header-toggle d-xl-none" aria-label="Toggle Navigation">
+    <i class="bi bi-list"></i>
+  </button>
+  <header id="header" class="header d-flex flex-column">
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
       <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
@@ -79,9 +81,6 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img
-        src="https://plus.unsplash.com/premium_photo-1661963212517-830bbb7d76fc?q=80&w=1572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="" data-aos="fade-in" class="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Kai Sheng</h2>
@@ -166,7 +165,7 @@
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1"
                 class="purecounter"></span>
-              <p><strong>Projects</strong> <span>Check at my github repo !</span></p>
+              <p><strong>Projects</strong> <span>Check my github repo!</span></p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -714,9 +713,9 @@
       <div class="bg-base-200 p-4 md:p-8">
         <div class="container max-w-screen-xl m-auto justify-center">
           <!-- Section Header -->
-          <div class="mb-6">
+          <div class="mb-6 text-center">
             <p class="text-4xl font-bold mb-4">Portfolio</p>
-            <p>Experience in the development of different type of software during Internship & School Project.</p>
+            <p class="text-lg text-gray-600 text-justify">Experience in the development of different type of software during Internship & School Project.</p>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="portfolio-grid">
@@ -763,7 +762,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer ></script>
 
 </body>
 
