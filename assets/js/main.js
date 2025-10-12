@@ -1,7 +1,4 @@
-/**
-* Template Name: iPortfolio - MOBILE NAVIGATION FIXED
-* The problem was in the headerToggle function - it was trying to toggle classes on the wrong elements
-*/
+
 
 (function () {
   "use strict";
