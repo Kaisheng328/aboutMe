@@ -1,1 +1,26 @@
-node_modules
+# Node / NPM
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+
+# AWS / Docker
+task-definition.json
+trust-policy.json
+.dockerignore
+.aws/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
